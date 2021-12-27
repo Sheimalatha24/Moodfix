@@ -1,5 +1,7 @@
 import mongoose from 'mongoose';
 import User from '../models/user.js';
+import Doctor from '../models/doctor.js';
+import Problem from '../models/problemform.js';
  const connectDB = async () => {
     try {
         //database Name
