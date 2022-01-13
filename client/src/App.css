@@ -1,0 +1,365 @@
+.App {
+  text-align: center;
+  font-family: 'Sansita Swashed', cursive;
+  background-image: url('./audioclips/logimage3.jpeg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center; 
+   background-size: cover;
+  
+
+}
+.loginpage{
+  background-image: url('./audioclips/logbg.jpeg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center; 
+   background-size: cover;
+   height:100vh
+}
+.afterconsultpage{
+  background-image: url('./audioclips/dochome5.jpeg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center; 
+   background-size: cover;
+   height:250vh;
+}
+.badges img{
+  height: 120px;
+  width: 120px;
+  margin:3%
+}
+
+.afterconsultform{
+  background-color: rgba(0,18,32,0.3) !important;
+      /* margin: 100px; */
+      box-shadow: 0 3px 10px 0 antiquewhite;
+      width: 50%;
+      margin: 5% 25%;
+  }
+  .consultform{
+      text-align: left;
+      padding: 3%;}
+.after{
+  width: 50%
+}
+
+.form-select{
+  width: 50%
+}
+
+label{
+  font-weight: 700;
+}
+.dochomepage{
+  background-image: url('./audioclips/img.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center; 
+   background-size: cover;
+   height: 200vh
+   
+}
+.navbar {
+ color: white;
+  background-color: rgba(27,27,70,0.9);
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+.profilechosingpage{
+   background-image: url('./audioclips/logimg.jpg');
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center; 
+   background-size: cover;
+}
+
+.icondiv{
+  width: 40%;
+  padding: 2%;
+  box-shadow: 0 3px 10px 0 black;
+
+  background-color: rgba(0,18,32,0.5)  !important;
+  margin-top:5%;
+  margin-left: 30%;
+
+}
+.logindiv{
+ width: 40%;
+    position: absolute;
+    margin: 13% 30%;
+    box-shadow: 0 3px 10px 0 black;
+    background-color: rgba(0,18,32,0.6) !important;
+ 
+    padding: 2%;
+}
+.counselform{
+  
+  width: 70%;
+  margin-left: 2% 30%;
+  box-shadow: 0 3px 10px 0 black;
+  background-color: rgba(0,18,32,0.5) !important;
+  padding: 2%;
+ 
+  margin: 5% 15%;
+}
+.wp{
+  width: 50px;
+  height: 50px;
+}
+
+
+.carddoctor{
+  background-color: rgba(32,48,166,0.1) !important;
+   padding: 2%;
+   box-shadow: 0 2px 10px 0 black;
+
+
+ margin-top:50px;;
+ margin-bottom: auto;
+ 
+}
+.navbar-light .navbar-brand{
+  color: white;
+}
+.cardservices{
+  padding: 2%;
+  box-shadow: 0 2px 10px 0 black;
+
+
+ 
+  white-space: nowrap;
+  width: 1491.990px;
+margin-top:50px;;
+margin-bottom: auto;
+background: rgb(31,31,78,0.8);
+}
+.detailspage{
+  
+  background-image: url('./audioclips/logimage3.jpeg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  position: absolute;
+  width: 100vw;
+  height: 160vh;
+  
+
+}
+.detailflex{
+  margin: 5%;
+  text-align: left;
+
+}
+
+.detailbtn{
+  width: 450px;
+    margin-left: 10%;
+    margin-top: 2%;
+    height: 40px;
+background: rgba(27,27,70,0.9);
+}
+
+.detailsdiv{
+  display:flex;
+
+
+    background: rgba(0,18,32,0.3) !important;
+    box-shadow: 0 3px 20px 0 black;
+  margin: 2% 15%;
+}
+.detailsdiv h4{
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+.carddoctor img{
+  width: 200px;
+  height: 230px;
+  margin-left: 3%;
+
+}
+.docpic{
+  width: 200px;
+  height: 230px;
+  margin-left: 3%;
+  border-radius: 3%;
+}
+.docflex,.serviceflex{
+  display: flex;
+overflow-x: scroll;
+  justify-content: space-between
+}
+.videodiv{
+  margin-left: 5%;
+  transition: 0.6s ease;
+}
+.videodiv:hover{
+  transform: scale(1.04);
+}
+
+.carddoctor h6{
+  color: black;
+  font-weight: bolder;
+  letter-spacing: 2px;
+  margin: 5%;
+
+}
+.appointmentdiv{
+  margin: 2%;
+  padding: 2%;
+    border: solid 1px cyan;
+}
+
+.react-calendar{
+  margin: 3% 30%;
+  box-shadow: 0 3px 20px 0 black;
+
+  width: 40%;
+  max-width: 100%;
+  border-radius: 25px;
+  background: #e4ded6;
+  /* border: 1px solid #a0a096; */
+  border:0px;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.125em;
+}
+.highlight {
+  color:white;
+  background:#2a2d51;
+}
+.highlight :hover{
+  background:#61dafb;
+}
+.appointmentdiv .btn{
+background-color: rgba(27,27,70,0.9);
+}
+.patientdetailmain{
+  box-shadow: 0 3px 15px 0 white;
+  background: rgb(52 44 92 / 50%) !important;
+  margin: 2% 0%;
+    width: 60%;
+    height: 40%;
+}
+.patientdetailsdiv{
+
+
+  display: flex;
+  flex-wrap: wrap;
+ 
+}
+
+.patientdetailflex{
+  margin: 3%;
+}
+ /* h1{
+margin: 2% ;
+text-align:left
+} */
+
+.mainflex{
+  margin-left: 5%;
+  margin-top: 2%;
+  background: rgb(52 44 92 / 50%) !important;
+  box-shadow: 0 3px 15px 0 white;
+  padding: 1%;
+  color: white;
+}
+
+.image {
+  box-shadow: 0 3px 15px 0 black;
+  opacity: 1;
+width:200px;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+.btn-check:focus+.btn-primary, .btn-primary:focus{
+  box-shadow:0px;
+}
+.overlay:hover .image  {
+  opacity: 0.7;
+  background-color: rgba(0,18,32,0.6) !important
+}
+.overlay {
+  position: relative;
+  width: 100%;
+}
+.overlay:hover .middle {
+  opacity: 1;
+}
+.carddoctor h1{
+ color: black;
+ letter-spacing: 4px;
+ font-weight: bolder;
+ margin-bottom:3%;
+}
+.cardservices h1{
+  color: white;
+  letter-spacing: 4px;
+  font-weight: bolder;
+  margin-bottom:3%;
+}
+.btn{
+  background-color: black;
+  color: white;
+}
+.btn-primary{
+  border: 0;
+}
+
+.btn:hover{
+  background-color:white;
+  color: black;
+  border: 0;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
